@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e5e5;
+}
+.logo {
+    margin: 1rem;
+    font-size: 3rem;
+    font-family: cursive;
+    color: #d69090;
+}
+.container {
+
+    padding: 5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+    display: flex;
+    font-size: 3.8rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.screen{
+    width: 100%;
+    height: 4rem;
+    background-color: #e9d2d2;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+    width: 23rem;
+    margin: 0;
+    
+}
+.display {
+    direction: ltr;
+    float: right;
+
+}
+.buttons {
+    border-bottom: 1px solid red;
+    border-radius: 0 0 1rem 1rem;
+    
+    
+}
+button {
+    width: 5rem;
+    height: 6rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(136, 90, 90);
+    color: #ffffff;
+    font-family: cursive;
+
+
+}
+button:hover {
+    filter: brightness(90%);
+    
+}
+button:active {
+    transform: translate(-0.5px, 0.5px);
+}
+.delete {
+    width: 100%;
+    border-radius: 0 0 1rem 1rem;
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+
+}
