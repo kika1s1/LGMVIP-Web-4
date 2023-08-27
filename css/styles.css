@@ -17,6 +17,14 @@ html {
     justify-content: center;
     background-color: #e7e5e5;
 }
+.main--container {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 1rem;
+    
+}
+
 .logo {
     margin: 1rem;
     font-size: 3rem;
@@ -25,15 +33,13 @@ html {
 }
 .container {
 
-    padding: 5rem;
-    background-color: #fff;
     border-radius: 1rem;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
     display: flex;
     font-size: 3.8rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .screen{
     width: 100%;
@@ -83,4 +89,14 @@ button:active {
     background-color: red;
     color: #fff;
 
+}
+
+.history {
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+.history h1 {
+    margin: 0.5rem 1rem;
 }

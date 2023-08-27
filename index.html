@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <div class="main">
-        <h1 class="logo">CALCULATOR</h1>
-        <div class="container">
+      <h1 class="logo">CALCULATOR</h1>
+
+      <div class="main--container">
+        
+          <div class="container">
             <div class="screen">
-                <span id="screen" class="display" ></span>
+              <span id="screen" class="display">0</span>
             </div>
             <div class="buttons">
-                <div class="form--group">
-                    <button value="1">1</button>
-                    <button value="2">2</button>
-                    <button value="3">3</button>
-                    <button value="/">/</button>
-                </div>
-                <div class="form--group">
-                    <button value="4">4</button>
-                    <button value="5">5</button>
-                    <button value="6">6</button>
-                    <button value="-">-</button>
-                </div>
-                <div class="form--group">
-                    <button value="7">7</button>
-                    <button value="8">8</button>
-                    <button value="9">9</button>
-                    <button value="+">+</button>
-                </div>
-                <div class="form--group">
-                    <button value=".">.</button>
-                    <button value="0">0</button>
-                    <button value="=">=</button>
-                    <button value="*">X</button>
-                </div>
-                <div class="form--group">
-                    <button class="delete" value="delete">X</button>
-                </div>
-            </div>
+              <div class="form--group">
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="/">/</button>
+              </div>
+              <div class="form--group">
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="-">-</button>
+              </div>
+              <div class="form--group">
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="+">+</button>
+              </div>
+              <div class="form--group">
+                <button value=".">.</button>
+                <button value="0">0</button>
+                <button value="=">=</button>
+                <button value="*">X</button>
+              </div>
+              <div class="form--group">
+                <button class="delete" value="delete">X</button>
+              </div>
+      </div>
         </div>
+           <div class="history">
+                <h1>History</h1>
+                <div id="history"><span id="history--display"></span></div>
+            </div>
+      </div>
     </div>
-    
+
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
